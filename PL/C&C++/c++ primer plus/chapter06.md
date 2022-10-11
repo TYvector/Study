@@ -123,6 +123,7 @@ cout的一些事实：
 - 头文件iostream声明了一个名为cout的ostream变量（对象）。
 - 必须指明名称空间std；例如，为引用元素cout和endl，必须使用编译指令using或前缀std::。
 - 可以结合使用cout和运算符<<来显示各种类型的数据。
+
 文件输出与此极其相似。
 - 必须包含头文件fstream。
 - 头文件fstream定义了一个用于处理输出的ofstream类。
@@ -168,6 +169,7 @@ fout << line << endl;
 - 可以使用cin和get( )方法来读取一个字符，使用cin和getline( )来读取一行字符。
 - 可以结合使用cin和eof( )、fail( )方法来判断输入是否成功。
 - 对象cin本身被用作测试条件时，如果最后一个读取操作成功，它将被转换为布尔值true，否则被转换为false。
+
 文件输出与此极其相似：
 - 必须包含头文件fstream。
 - 头文件fstream定义了一个用于处理输入的ifstream类。
